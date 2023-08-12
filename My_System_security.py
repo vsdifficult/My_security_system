@@ -37,7 +37,8 @@ def delete_files():
                     os.remove(file_path)
                     tkinter.messagebox.showwarning("Файлы успешно удалены") 
                     break
-                     
+
+            
                 else: 
                     tkinter.messagebox.showinfo('system security', 'Вредоностных файлов не наденно') 
                     break
